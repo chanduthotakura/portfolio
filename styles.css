@@ -1,0 +1,233 @@
+
+.navbar a:hover{
+    color: rgb(8, 3, 5);
+    
+}
+
+.navbar a{
+    font-size: 1.2rem;
+    color:#fff ;
+    text-decoration: none;
+    margin-left: 70px;
+    position: relative;
+    left: 40%;
+    bottom: 40px;
+    
+}
+.navbar{
+    background-color: rgb(26, 178, 188);
+    
+   
+}
+.navbar img{
+    width: 5%;
+    height:5%; 
+    border-radius: 10px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+}
+
+.home{
+    position: relative;
+    justify-content: space-around;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    background-color: rgb(233, 217, 220);
+}
+.home-content{
+    padding-top: 5%;
+    color: rgb(15, 17, 16);
+    font-size: 26px;
+}
+h3{
+    font-size: 50px;
+}
+
+.home img{
+    width: 30%;
+    height: 30%;
+    padding: auto;
+    border-radius: 10px;
+}
+.hero-btn{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: rgb(26, 178, 188);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#about{
+    padding: 30px 40px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+  
+}
+#about img{
+    width: 30%;
+    position: relative;
+    right: 2%;
+    border-radius: 10%;
+    top: 40px;
+    
+}
+.about-contant{
+    padding-left: 45%;
+    position: relative;
+    top:30px;
+    text-align: center;
+    right: 25%;
+    font-size: 20px;
+  
+}
+#education{
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  
+    
+}
+
+.education-contant {
+     max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    right: 20%; 
+    
+}
+
+
+.education-list {
+    list-style-type: disc; 
+    margin-left: 40px;
+    position: relative; 
+    left: 20%;
+}
+
+.education-list li {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+.education-list h4 {
+    background-color: rgb(26, 178, 188);
+    color:#f0f0f0;
+    width: 80px;
+}
+
+.education-list h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.education-list p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #666;
+}
+#projects {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.projects-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.project-item h3 {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.project-item p {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 10px 0;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:  rgb(26, 178, 188);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+  background-color: #e5533d;
+}
+
+#skills {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .skills-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  #skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+  }
+  
+  .skills-list li {
+    font-size: 1.5rem;
+    color: #666;
+    margin: 15px;
+    padding-left: 15px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .skills:hover{
+    color: aqua;
+  }
+  #contact{
+    padding: 60px 20px;
+    background-color:rgb(233, 217, 220);
+    
+  }
+  .Contact-container{
+    text-align: center;
+    
+  }
+  .contact-details{
+    text-align: center;
+  }
+  .contact-details:hover{
+    color: aqua;
+  }
+  .contact-links{
+    text-align: center;
+    background-color:rgb(233, 217, 220);
+    border-radius: 5%;
+  }
